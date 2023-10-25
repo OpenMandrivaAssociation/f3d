@@ -22,6 +22,7 @@ Source0:	https://github.com/%{name}-app/%{name}/archive/refs/tags/v%{version}.ta
 BuildRequires:	cmake ninja
 %if %{with plugin_alembic}
 BuildRequires:	cmake(Alembic)
+BuildRequires:	cmake(curl)
 %endif
 BuildRequires:	cmake(double-conversion)
 BuildRequires:	cmake(expat)
