@@ -33,6 +33,7 @@ BuildRequires:	cmake(OpenCASCADE)
 BuildRequires:	cmake(nlohmann_json)
 BuildRequires:	cmake(netcdf)
 BuildRequires:	cmake(utf8cpp)
+BuildRequires:	cmake(Verdict)
 BuildRequires:	cmake(vtk)
 BuildRequires:	hdf5-devel
 BuildRequires:	help2man
