@@ -37,6 +37,7 @@ BuildRequires:	cmake(pybind11)
 BuildRequires:	cmake(utf8cpp)
 BuildRequires:	cmake(Verdict)
 BuildRequires:	cmake(vtk)
+BuildRequires:	freeimage-devel
 BuildRequires:	hdf5-devel
 BuildRequires:	help2man
 BuildRequires:	pkgconfig
