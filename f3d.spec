@@ -62,6 +62,9 @@ BuildRequires:	pkgconfig(xi)
 BuildRequires:	pkgconfig(xmu)
 BuildRequires:	pkgconfig(xt)
 BuildRequires:	pkgconfig(zlib)
+BuildRequires:	pkgconfig(fontconfig)
+BuildRequires:	pkgconfig(tbb)
+BuildRequires:	pkgconfig(tbbmalloc)
 
 %description
 F3D is a VTK-based 3D viewer following the KISS principle, so it is
