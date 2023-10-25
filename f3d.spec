@@ -22,10 +22,10 @@ Source0:	https://github.com/%{name}-app/%{name}/archive/refs/tags/v%{version}.ta
 BuildRequires:	cmake ninja
 %if %{with plugin_alembic}
 BuildRequires:	cmake(Alembic)
-BuildRequires:	cmake(curl)
 %endif
 BuildRequires:	cmake(double-conversion)
 BuildRequires:	cmake(expat)
+BuildRequires:	cmake(FastFloat)
 BuildRequires:	cmake(Imath)
 BuildRequires:	cmake(jsoncpp)
 %if %{with plugin_occt}
@@ -33,6 +33,7 @@ BuildRequires:	cmake(OpenCASCADE)
 %endif
 BuildRequires:	cmake(nlohmann_json)
 BuildRequires:	cmake(netcdf)
+BuildRequires:	cmake(pybind11)
 BuildRequires:	cmake(utf8cpp)
 BuildRequires:	cmake(Verdict)
 BuildRequires:	cmake(vtk)
