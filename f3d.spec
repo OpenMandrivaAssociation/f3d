@@ -6,7 +6,7 @@
 %bcond_without	java
 %bcond_without	python
 %bcond_without	plugin_alembic
-%bcond_without	plugin_assimp
+%bcond_with	plugin_assimp
 %bcond_without	plugin_draco
 %bcond_without	plugin_exodus
 %bcond_without	plugin_occt
