@@ -13,7 +13,7 @@
 
 Summary:	Fast and minimalist 3D viewer
 Name:		f3d
-Version:	2.2.1
+Version:	2.5.0
 Release:	1
 License:	BSD
 Group: 		Graphics
@@ -108,6 +108,11 @@ Development files and samples for the f3d.
 %files devel
 %license LICENSE.md doc/THIRD_PARTY_LICENSES.md
 %{_libdir}/lib%{name}.so
+%{_libdir}/libvtkext.so
+%{_libdir}/vtk/hierarchy/f3d_vtkext/vtkext-hierarchy.txt
+%{_libdir}/cmake/f3d_vtkext/
+%{_includedir}/f3d/vtkF3DFaceVaryingPointDispatcher.h
+%{_includedir}/f3d/vtkextModule.h
 
 #---------------------------------------------------------------------------
 
