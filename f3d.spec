@@ -13,7 +13,7 @@
 
 Summary:	Fast and minimalist 3D viewer
 Name:		f3d
-Version:	2.2.1
+Version:	2.5.0
 Release:	1
 License:	BSD
 Group: 		Graphics
