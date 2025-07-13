@@ -109,10 +109,10 @@ Development files and samples for the f3d.
 %license LICENSE.md doc/THIRD_PARTY_LICENSES.md
 %{_libdir}/lib%{name}.so
 %{_libdir}/libvtkext.so
-%{_libdir}/vtk/hierarchy/f3d_vtkext/vtkext-hierarchy.txt
-%{_libdir}/cmake/f3d_vtkext/
-%{_includedir}/f3d/vtkF3DFaceVaryingPointDispatcher.h
-%{_includedir}/f3d/vtkextModule.h
+#{_libdir}/vtk/hierarchy/f3d_vtkext/vtkext-hierarchy.txt
+#{_libdir}/cmake/f3d_vtkext/
+#{_includedir}/f3d/vtkF3DFaceVaryingPointDispatcher.h
+#{_includedir}/f3d/vtkextModule.h
 
 #---------------------------------------------------------------------------
 
