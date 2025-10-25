@@ -107,7 +107,7 @@ Requires:	f3d = %{EVRD}
 Development files and samples for the f3d.
 
 %files devel
-%license LICENSE.md doc/THIRD_PARTY_LICENSES.md
+%license LICENSE.md
 %{_libdir}/lib%{name}.so
 %{_libdir}/libvtkext.so
 
