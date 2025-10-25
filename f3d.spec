@@ -73,7 +73,7 @@ minimalist, efficient, has no GUI, has simple interaction mechanisms and is
 fully controllable using arguments in the command line.
 
 %files
-%license LICENSE.md doc/THIRD_PARTY_LICENSES.md
+%license LICENSE.md
 %doc README.md
 %{_bindir}/%{name}
 %{_libdir}/lib%{name}.so.*
