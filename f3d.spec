@@ -13,8 +13,8 @@
 
 Summary:	Fast and minimalist 3D viewer
 Name:		f3d
-Version:	3.3.0
-Release:	2
+Version:	3.5.0
+Release:	1
 License:	BSD
 Group: 		Graphics
 URL:		https://f3d.app
