@@ -117,7 +117,7 @@ Development files and samples for the f3d.
 %package python
 Summary:		Python bindings for the %{name}
 Group:			Development/Python
-BuildRequires:	pkgconfig(python)
+BuildRequires:	pkgconfig(python3)
 Requires:		%{name} = %{EVRD}
 Provides:		python-%{name} = %{version}-%{release}
 
